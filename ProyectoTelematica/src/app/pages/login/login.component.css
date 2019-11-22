@@ -1,0 +1,48 @@
+@import url("");
+.login-block{
+    background: white;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, white, white);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, white, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 50px 0;
+  background-image:linear-gradient(rgba(500, 100, 50,  0.3),rgba(100, 0, 0.5)), url('/assets/img/fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+position: absolute;
+display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/*.banner-sec{background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.container{  border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0);}
+/*.carousel-inner{border-radius:0 10px 10px 0;}
+.carousel-caption{text-align:left; left:5%;}*/
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:30px; bottom:20px; font-size:13px; text-align:center;}
+.login-sec .copy-text i{color:#FEB58A;}
+.login-sec .copy-text a{color:pink;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: pink;}
+/*.login-sec h2:after{content:" "; width:100px; height:5px; background:#FEB58A; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}*/
+.btn-login{background: lightpink; color:white; font-weight:600;}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+.banner-text h2{color:pink; font-weight:600;}
+.banner-text h2:after{content:" "; width:100px; height:5px; background:pink; display:block; margin-top:20px; border-radius:3px;}
+.banner-text p{text-align:center ;width:600px ; height:400px ;color:pink;}
+.modal modalup fade bd-example-modal-lg{color:pink}
+img{
+  height: 600px;
+}
+.modal{
+background-color: rgba(10,0,0,0)
+}
+.modal-content {
+    background-color: rgba(0,0,0,0.1);
+    opacity: 0.9;
+}
+.ng-invalid.ng-touched:not(form) {
+  border: 2px solid red;
+}
+

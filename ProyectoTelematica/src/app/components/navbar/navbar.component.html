@@ -1,0 +1,19 @@
+<nav style="height:40px" class="navbar navbar-expand-lg navbar-dark">
+  <a style="font-size:20px;margin:10px 60px 10px 20px" class="navbar-brand" [routerLink]="['/home']" href="#"><strong>Vaso y Asociados Ltda</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div  style="width:100%" class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul style="width:100%" class="navbar-nav">
+      <li class="nav-item active">
+        <a style="font-size:20px" class="nav-link"  [routerLink]="['/home',{email: email}]" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li  style="margim-right:0px" class="nav-item my-sm-0">
+        <a style="font-size:20px;" class="nav-link" [routerLink]="['/login']" href="#">Salir</a>
+      </li>
+
+
+
+    </ul>
+  </div>
+</nav>

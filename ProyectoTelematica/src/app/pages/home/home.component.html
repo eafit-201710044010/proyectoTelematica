@@ -1,0 +1,95 @@
+<app-navbar [email]="mensaje.emailCliente"></app-navbar>
+<header>
+
+</header>
+
+<div class="container ">
+  <div class="container">
+<h1 style="margin-left:120px;" class="text-info">Califica<small> nuestros productos</small></h1>
+    <p style="margin-left:120px;" class="lead">Selecciona una o mas opciones haciendo click sobre la imagen de cada producto y envianos tu opinión en el formulario al final de la página.</p>
+  </div>
+</div>
+<br>
+<hr>
+
+<div class="card-columns container">
+
+  <div *ngFor="let object of objects" class="cardProduct">
+    <label class="checkeable">
+    <input class="checkbox" id="{{object.name}}" type="checkbox"  [value]="object.name" value="{{object.name}}" (change)="onCheckChange($event)" >
+    <img src="{{object.image}}" class="card-img-top" alt="...">
+    </label>
+    <div class="card-body">
+      <h5 class="card-title">{{object.name}}</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+    </div>
+  </div>
+<br><br>
+</div>
+
+
+
+   <form class="login-form" >
+
+     <div class="card">
+       <div class="row m-5">
+         <div class="col-lg-8">
+           <div class="card-body form">
+
+             <h3 class="mt-2 mb-4"><i class="fas fa-envelope pr-2"></i>Danos tu opinión:</h3>
+
+             <div class="row">
+
+               <div class="col-md-6">
+                 <div class="md-form mb-0">
+                   <select id="puntaje" class="custom-select">
+ <option selected>Open this select menu</option>
+ <option value="1">1</option>
+ <option value="2">2</option>
+ <option value="3">3</option>
+ <option value="3">4</option>
+ <option value="3">5</option>
+</select>
+<br>
+<div *ngIf="errorpuntaje" class="">
+  <p style="color:red">Debe seleccionar un puntaje</p>
+</div>
+                 </div>
+                 <br>
+               </div>
+
+             </div>
+
+             <div class="row">
+
+               <!-- Grid column -->
+               <div class="col-md-12">
+                 <div class="md-form mb-0">
+                   <textarea id="mensaje"  maxlength="150" class="form-control" placeholder="Opinión" rows="3"></textarea>
+                 </div>
+                 <div *ngIf="errormensaje" class="">
+                   <p style="color:red">Debe escribir una opinión</p>
+                 </div>
+                 <div *ngIf="errorCheck" class="">
+                   <p style="color:red">Debe seleccionar al menos un producto</p>
+                 </div>
+                 <br>
+                 <div *ngIf="enviado" class="alert alert-success" role="alert">
+                    Muchas gracias! su calificación fue enviada con éxito.
+                 </div>
+               </div>
+             </div>
+             <br>
+             <button style="background: #AED0E1; color:#fff; font-weight:600; width:20%" type="button" (click)="enviar()"  class="btn btn-login button">Enviar</button>
+           </div>
+         </div>
+         </div>
+       </div>
+
+
+
+</form>
+
+
+<app-footer></app-footer>
