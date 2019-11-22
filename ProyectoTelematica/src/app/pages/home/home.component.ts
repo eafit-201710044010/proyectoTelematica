@@ -24,52 +24,236 @@ checkoutForm:FormGroup;
 
   objects = [{
     codigo:1,
-    name:"Aceite",
+    name:"Base",
     price:"2000",
-    image:"/assets/img/trabajos/1.jpg"
+    image:"/assets/img/base.jpg"
   },
   {
     codigo:2,
-    name:"Salsa",
+    name:"Polvo multipiel",
     price:"2000",
-    image:"/assets/img/trabajos/2.jpg"
+    image:"/assets/img/polvomultipiel.jpg"
   },
   {
     codigo:3,
-    name:"Atun",
+    name:"Labial Natural",
     price:"2000",
-    image:"/assets/img/trabajos/3.jpg"
+    image:"/assets/img/labialnatural.jpg"
   },
   {
     codigo:4,
-    name:"Piña",
+    name:"Lapiz natural",
     price:"2000",
-    image:"/assets/img/trabajos/4.jpg"
+    image:"/assets/img/lapiznatural.jpg"
   },
   {
     codigo:5,
-    name:"arroz",
+    name:"Polvo organico",
     price:"2000",
-    image:"/assets/img/trabajos/5.jpg"
+    image:"/assets/img/polvoorganico.jpg"
   },
   {
     codigo:6,
-    name:"frijol",
+    name:"sombra natural",
     price:"2000",
-    image:"/assets/img/trabajos/6.jpg"
+    image:"/assets/img/sombranatural.jpg"
   },
   {
     codigo:7,
-    name:"lenteja",
+    name:"Base humectante",
     price:"2000",
-    image:"/assets/img/trabajos/7.jpg"
+    image:"/assets/img/polvonatural.jpg"
   },
   {
     codigo:8,
-    name:"huevo",
+    name:"brillo Labial",
     price:"2000",
-    image:"/assets/img/trabajos/8.jpg"
-  }
+    image:"/assets/img/brillolabial.jpg"
+  },
+   {
+    codigo:9,
+    name:"Kit de brochas",
+    price:"2000",
+    image:"/assets/img/kitbrochas.jpg"
+  },
+   {
+    codigo:10,
+    name:"brillo Labial",
+    price:"2000",
+    image:"/assets/img/brillorosado.jpg"
+  },
+  {
+    codigo:11,
+    name:"brillo magico",
+    price:"2000",
+    image:"/assets/img/brillomagico.jpg"
+  },
+ {
+    codigo:12,
+    name:"delineador en gel",
+    price:"2000",
+    image:"/assets/img/delineadorgel.jpg"
+  },
+ {
+    codigo:13,
+    name:"delineadornegro",
+    price:"2000",
+    image:"/assets/img/delineadornegro.jpg"
+  },
+ {
+    codigo:14,
+    name:"Brochas",
+    price:"2000",
+    image:"/assets/img/brochas.jpg"
+  },
+ {
+    codigo:15,
+    name:"Bases",
+    price:"2000",
+    image:"/assets/img/bases.jpg"
+  },
+ {
+    codigo:16,
+    name:"Delineador",
+    price:"2000",
+    image:"/assets/img/delineador.jpg"
+  },
+   {
+    codigo:17,
+    name:"labial cafe",
+    price:"2000",
+    image:"/assets/img/labialcafe.jpg"
+  },
+ {
+    codigo:18,
+    name:"polvo",
+    price:"2000",
+    image:"/assets/img/polvo.jpg"
+  },
+ {
+    codigo:19,
+    name:"perfume",
+    price:"2000",
+    image:"/assets/img/perfume.jpg"
+  },
+ {
+    codigo:20,
+    name:"brillo rosado",
+    price:"2000",
+    image:"/assets/img/brillo.jpg"
+  },
+ {
+    codigo:21,
+    name:"Esmalte",
+    price:"2000",
+    image:"/assets/img/esmalte.jpg"
+  },
+ {
+    codigo:22,
+    name:"Espuma",
+    price:"2000",
+    image:"/assets/img/espuma.jpg"
+  },
+ {
+    codigo:23,
+    name:"rubor",
+    price:"2000",
+    image:"/assets/img/rubor.jpg"
+  },
+ {
+    codigo:24,
+    name:"pestanina negra",
+    price:"2000",
+    image:"/assets/img/pestanina.jpg"
+  },
+ {
+    codigo:25,
+    name:"labial rojo",
+    price:"2000",
+    image:"/assets/img/labialrojo.jpg"
+  },
+ {
+    codigo:26,
+    name:"sombras",
+    price:"2000",
+    image:"/assets/img/sombrasb.jpg"
+  },
+ {
+    codigo:27,
+    name:"crema humectante",
+    price:"2000",
+    image:"/assets/img/crema.jpg"
+  },
+ {
+    codigo:28,
+    name:"peinilla",
+    price:"2000",
+    image:"/assets/img/peinilla.jpg"
+  },
+ {
+    codigo:29,
+    name:"Antienvejecimiento",
+    price:"2000",
+    image:"/assets/img/antienvejecimiento.jpg"
+  },
+ {
+    codigo:30,
+    name:"Maquillaje ecologico",
+    price:"2000",
+    image:"/assets/img/maquillajeecologico.jpg"
+  },
+ {
+    codigo:16,
+    name:"brillo Labial",
+    price:"2000",
+    image:"/assets/img/brillolabial.jpg"
+  },
+ {
+    codigo:16,
+    name:"brillo Labial",
+    price:"2000",
+    image:"/assets/img/brillolabial.jpg"
+  },
+ {
+    codigo:16,
+    name:"brillo Labial",
+    price:"2000",
+    image:"/assets/img/brillolabial.jpg"
+  },
+ {
+    codigo:16,
+    name:"brillo Labial",
+    price:"2000",
+    image:"/assets/img/brillolabial.jpg"
+  },
+ {
+    codigo:16,
+    name:"brillo Labial",
+    price:"2000",
+    image:"/assets/img/brillolabial.jpg"
+  },
+ {
+    codigo:16,
+    name:"brillo Labial",
+    price:"2000",
+    image:"/assets/img/brillolabial.jpg"
+  },
+ {
+    codigo:16,
+    name:"brillo Labial",
+    price:"2000",
+    image:"/assets/img/brillolabial.jpg"
+  },
+ {
+    codigo:16,
+    name:"brillo Labial",
+    price:"2000",
+    image:"/assets/img/brillolabial.jpg"
+  },
+
+  
+
+
 ];
 
 objectsCheck = [];
